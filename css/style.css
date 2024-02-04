@@ -591,6 +591,12 @@ ul{
         font-size: calc(var(--wid)*0.02);
         margin-bottom: calc(var(--wid)*0.03);
     }
+    .contact .contact-info .fa-brands{
+        color: var(--text-black-900);
+        padding-right: calc(var(--wid)*0.015);
+        font-size: calc(var(--wid)*0.02);
+        margin-bottom: calc(var(--wid)*0.03);
+    }
     .contact .contact-info .buttons{
         cursor: pointer;
         margin-bottom: calc(var(--wid)*0.03);
