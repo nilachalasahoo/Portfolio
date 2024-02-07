@@ -585,7 +585,7 @@ ul{
         font-size: calc(var(--wid)*0.015);
         
     }
-    .contact .contact-info .fab{
+    .contact .contact-info .icon{
         color: var(--text-black-900);
         padding-right: calc(var(--wid)*0.015);
         font-size: calc(var(--wid)*0.02);
