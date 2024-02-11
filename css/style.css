@@ -615,6 +615,14 @@ ul{
     .contact .contact-form .form-item textarea.form-control{
         height: calc(var(--wid)*0.06);
     }
+    .contact .contact-form span{
+        font-weight: 500;
+        font-size: calc(var(--wid)*0.012);
+        margin: auto;
+        text-align: center;
+        position: relative;
+        color: green;
+    }
     .copywrite p{
         font-weight: 500;
         font-size: calc(var(--wid)*0.01);

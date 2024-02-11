@@ -430,21 +430,21 @@
                                </div>
                             </div>
                             <div class="contact-form">
-                                <form>
+                                <form name="submit-to-google-sheet">
                                     <div class="form-item padd-15">
                                         <div class="form-group">
-                                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                                            <input type="text" name="Name" class="form-control" placeholder="Your Name" required>
                                         </div>
                                     </div>
                                 
                                     <div class="form-item padd-15">
                                         <div class="form-group">
-                                            <input type="email" id="email" class="form-control" onkeyup="validateEmail()" placeholder="Your Email" required>
+                                            <input type="email" name="Email" class="form-control" onkeyup="validateEmail()" placeholder="Your Email" required>
                                         </div>
                                     </div>
                                     <div class="form-item padd-15">
                                         <div class="form-group">
-                                            <textarea class="form-control" id="msg" placeholder="Your Message"></textarea>
+                                            <textarea class="form-control" name="Message" placeholder="Your Message"></textarea>
                                         </div>
                                     </div>
                                 <div class="row">
@@ -453,6 +453,9 @@
                                             <button type="submit" class="btn buttons">Submit</button>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="row">
+                                    <span id="msg"></span>
                                 </div>
                                 </form>
                             </div>
